@@ -1,0 +1,12 @@
+CRITICAL - 2021-11-24 06:59:36 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\edit_histori.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/edit_hist...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(277): view('admin/edit_hist...', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->editJabatan('28')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

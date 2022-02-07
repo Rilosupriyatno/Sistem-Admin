@@ -1,0 +1,7 @@
+CRITICAL - 2021-10-27 01:12:07 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

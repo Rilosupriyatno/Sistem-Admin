@@ -1,0 +1,33 @@
+CRITICAL - 2021-10-19 05:16:44 --> Call to undefined method CodeIgniter\View\View::entend()
+#0 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\sistem-admin\app\Controllers\Home.php(9): view('auth/login')
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-19 05:17:39 --> Invalid file: auth/templates/index.php
+#0 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/templates/...')
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\sistem-admin\app\Controllers\Home.php(9): view('auth/login')
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-19 05:19:56 --> Invalid file: auth/templates/index.php
+#0 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/templates/...')
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/login', Array, true)
+#3 C:\xampp\htdocs\sistem-admin\app\Controllers\Home.php(9): view('auth/login')
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

@@ -1,0 +1,168 @@
+ERROR - 2022-01-26 01:20:43 --> Unknown column 'histori.nama' in 'field list'
+CRITICAL - 2022-01-26 01:20:43 --> Unknown column 'histori.nama' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `histori...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `histori...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `histori...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `histori...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1084): CodeIgniter\BaseModel->findAll(5, 0)
+#7 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(327): CodeIgniter\BaseModel->paginate(5, 'data_pegawai')
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-01-26 01:38:57 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 01:47:33 --> Object of class App\Models\AdminModel could not be converted to string
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/mutasi', Array, true)
+#3 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(249): view('admin/mutasi', Array)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi('85')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-26 01:48:17 --> Cannot use object of type App\Models\AdminModel as array
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/mutasi', Array, true)
+#3 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(249): view('admin/mutasi', Array)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi('85')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-26 01:49:23 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\mutasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/mutasi', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(249): view('admin/mutasi', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi('85')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-26 01:56:02 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 01:58:56 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:01:11 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:07:24 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:07:53 --> Undefined variable $validation
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\mutasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/mutasi', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(137): view('/admin/mutasi', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-26 02:08:27 --> Undefined variable $jabat
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\mutasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/mutasi', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(138): view('/admin/mutasi', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-26 02:09:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\mutasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/mutasi', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(138): view('/admin/mutasi', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-26 02:10:28 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\mutasi.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/mutasi', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(138): view('/admin/mutasi', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-26 02:13:15 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:15:19 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:15:49 --> Too few arguments to function App\Controllers\Admin::mutasi(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutasi()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:32:41 --> Too few arguments to function App\Controllers\Admin::mutate(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutate()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-01-26 02:33:37 --> Too few arguments to function App\Controllers\Admin::mutate(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->mutate()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

@@ -1,0 +1,13 @@
+.foto {
+  width: 50px;
+}
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+.foto-detail {
+  width: 150px;
+  height: 250px;
+  float: right;
+  padding-right: 10px;
+  padding-top: 50px;
+}

@@ -1,0 +1,707 @@
+ERROR - 2021-10-26 00:41:03 --> Table 'sistem-admin-test.hostori' doesn't exist
+CRITICAL - 2021-10-26 00:41:03 --> Table 'sistem-admin-test.hostori' doesn't exist
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `da...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-10-26 00:41:39 --> Table 'sistem-admin-test.hostori' doesn't exist
+CRITICAL - 2021-10-26 00:41:39 --> Table 'sistem-admin-test.hostori' doesn't exist
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `da...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `da...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `da...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `da...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(119): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-10-26 01:11:23 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:11:23 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:13:04 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:13:04 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:14:15 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:14:15 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:19:45 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:19:45 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:20:58 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:20:58 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:21:36 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:21:36 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:22:07 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:22:07 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:23:42 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:23:42 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:23:54 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:23:54 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:26:16 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:26:16 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:26:36 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:26:36 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:29:54 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:29:54 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:31:46 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:31:46 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-10-26 01:33:04 --> Not unique table/alias: 'histori'
+CRITICAL - 2021-10-26 01:33:04 --> Not unique table/alias: 'histori'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\BaseModel.php(1080): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(295): CodeIgniter\BaseModel->paginate(5, 'histori')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2021-10-26 01:34:37 --> Undefined array key "keterangan"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\histori.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/histori', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(297): view('admin/histori', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 01:34:57 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\histori.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/histori', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(297): view('admin/histori', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 01:35:09 --> Undefined array key "waktu"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\histori.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/histori', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(297): view('admin/histori', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->histori()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 01:49:02 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 01:49:22 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 01:50:51 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 01:53:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 06:45:49 --> Undefined property: App\Controllers\User::$adminModel
+#0 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index('10')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-26 06:51:39 --> Undefined property: stdClass::$user_image
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(29): view('user/index', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index('10')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 06:58:18 --> Undefined array key "foto"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(38): view('user/edit', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->edit('10')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 06:58:34 --> Undefined array key "foto"
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\edit.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(38): view('user/edit', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->edit('10')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 06:59:02 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:04:06 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:04:12 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:07:00 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:07:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:10:02 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:11:11 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:11:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:12:49 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:15:06 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:16:13 --> Undefined variable $data_pegawai
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\blankpage.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/blankpage', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(34): view('user/blankpage', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->blankpage()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 07:20:50 --> Call to a member function getError() on null
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->update('10')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:23:49 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->update('10')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 07:25:37 --> Unclosed '{' on line 8
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('User/update/10')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('User/update/10')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-26 07:48:53 --> Undefined variable $users
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\index.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(34): view('user/index', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->blankpage()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 07:50:38 --> Unclosed '{' on line 46
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('user/blankpage')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('user/blankpage')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-26 08:33:57 --> Undefined variable $user
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\daftar_akun.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/daftar_ak...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(347): view('admin/daftar_ak...', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->daftar_akun()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 08:36:02 --> Attempt to read property "pegawaiid" on array
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\daftar_akun.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/daftar_ak...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(347): view('admin/daftar_ak...', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->daftar_akun()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 08:59:27 --> Undefined property: stdClass::$fullname
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\user\index.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('user/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(29): view('user/index', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index('10')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-26 22:56:50 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:58:10 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:58:44 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:58:48 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:59:18 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:59:53 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 22:59:57 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:15:16 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:20:25 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:21:56 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:23:35 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:41:16 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:42:14 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:45:40 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:46:03 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:46:12 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:46:54 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:50:06 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:50:59 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:51:00 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:51:12 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\auth\login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\Auth...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\Auth...', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\Auth...', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Myth\Auth\Controllers\AuthController->login()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-26 23:52:07 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:52:45 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:52:48 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:53:05 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:56:30 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-26 23:56:32 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

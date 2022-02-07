@@ -1,0 +1,35 @@
+CRITICAL - 2021-10-20 06:50:56 --> Undefined variable $title
+#0 C:\xampp\htdocs\sistem-admin\app\Views\auth\templates\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/register', Array, true)
+#5 C:\xampp\htdocs\sistem-admin\app\Controllers\Home.php(13): view('auth/register')
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->register()
+#7 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-20 06:53:28 --> Undefined variable $title
+#0 C:\xampp\htdocs\sistem-admin\app\Views\auth\templates\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('auth/templates/...', Array, true)
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('auth/register', Array, true)
+#5 C:\xampp\htdocs\sistem-admin\app\Controllers\Home.php(13): view('auth/register')
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->register()
+#7 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-20 08:48:11 --> login filter must have a matching alias defined.
+#0 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Filters\Filters.php(476): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('login')
+#1 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Filters\Filters.php(245): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+#2 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Filters\Filters.php(159): CodeIgniter\Filters\Filters->initialize('login')
+#3 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('login', 'before')
+#4 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistem-admin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sistem-admin\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

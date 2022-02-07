@@ -1,0 +1,490 @@
+CRITICAL - 2021-10-23 01:48:31 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:39 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:40 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:42 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:43 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:44 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:48:44 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:49:15 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:49:16 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('admin', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:51:56 --> Call to undefined function Config\in_groups()
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(689): require()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:56:29 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:58:03 --> Call to undefined function Config\in_groups()
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(689): require()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 01:59:50 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 02:06:23 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 02:18:17 --> Invalid file: /admin.php
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin.php')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin', Array, true)
+#2 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(17): view('/admin')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-23 02:18:36 --> Undefined variable $title
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\templates\index.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('templates/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/index', Array, true)
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(17): view('/admin/index')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-23 02:31:23 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 02:32:07 --> You do not have sufficient permissions to access that page.
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Filters\Filters.php(169): Myth\Auth\Filters\RoleFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(374): CodeIgniter\Filters\Filters->run('/', 'before')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-23 07:10:44 --> Unknown column 'users.id' in 'field list'
+CRITICAL - 2021-10-23 07:10:44 --> Unknown column 'users.id' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(149): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-23 07:29:13 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('admin/create')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('admin/create')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-10-23 07:47:31 --> Unknown column 'data_pegawai.id_usr' in 'on clause'
+CRITICAL - 2021-10-23 07:47:31 --> Unknown column 'data_pegawai.id_usr' in 'on clause'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(144): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-23 07:48:23 --> Undefined variable $users
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\userList.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/userList', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(154): view('admin/userList', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-23 08:16:56 --> Unknown column 'data_pegawai.id' in 'field list'
+CRITICAL - 2021-10-23 08:16:56 --> Unknown column 'data_pegawai.id' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(145): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-23 08:21:26 --> Unknown column 'data_pegawai.id' in 'field list'
+CRITICAL - 2021-10-23 08:21:26 --> Unknown column 'data_pegawai.id' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(145): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-23 08:21:50 --> Unknown column 'data_pegawai.id_pegawai' in 'field list'
+CRITICAL - 2021-10-23 08:21:50 --> Unknown column 'data_pegawai.id_pegawai' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(145): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-23 08:28:50 --> Unknown column 'data_pegawai.idas' in 'field list'
+CRITICAL - 2021-10-23 08:28:50 --> Unknown column 'data_pegawai.idas' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(149): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-10-23 08:28:59 --> Unknown column 'data_pegawai.id' in 'field list'
+CRITICAL - 2021-10-23 08:28:59 --> Unknown column 'data_pegawai.id' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `data_pe...')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `data_pe...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `data_pe...')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `data_pe...', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(149): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-23 08:29:18 --> Undefined variable $data_pegawai
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\userList.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/userList', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(155): view('admin/userList', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-23 08:32:53 --> Unknown column 'data_pegawai.id_usr' in 'on clause'
+CRITICAL - 2021-10-23 08:32:53 --> Unknown column 'data_pegawai.id_usr' in 'on clause'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(150): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 08:33:33 --> Undefined property: stdClass::$foto
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\userList.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/userList', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(157): view('admin/userList', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 08:39:56 --> Undefined property: stdClass::$userid
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\userList.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/userList', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(148): view('admin/userList', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->userList()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-10-23 08:40:52 --> Unknown column 'users.id' in 'field list'
+CRITICAL - 2021-10-23 08:40:52 --> Unknown column 'users.id' in 'field list'
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `users`....')
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Model.php(720): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(164): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-23 08:41:36 --> Undefined property: stdClass::$user_image
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 08:44:35 --> Undefined property: stdClass::$name
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 08:50:09 --> Undefined property: stdClass::$username
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('2')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 09:11:47 --> Undefined variable $user
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 09:12:13 --> Undefined variable $user
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 09:12:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#3 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-23 09:15:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#3 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-23 09:15:36 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\detail.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/detail', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(166): view('admin/detail', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->detail('1')
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 09:17:15 --> unlink(img/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(img/): I...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(130): unlink('img/')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->delete('1')
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-23 10:03:26 --> Undefined variable $validation
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\create.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('/admin/create', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(102): view('/admin/create', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->save()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 22:13:00 --> Call to undefined method App\Models\AdminModel::data
+#0 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(26): CodeIgniter\Model->__call('data', Array)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-23 22:15:14 --> Undefined variable $data
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\Admin.php(37): view('admin/index', Array)
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 22:21:51 --> Undefined property: App\Controllers\User::$adminModel
+#0 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-23 22:31:59 --> Too few arguments to function App\Controllers\User::index(), 0 passed in C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-23 22:48:41 --> Undefined variable $jumlah
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(20): view('admin/index')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-23 22:50:14 --> Undefined variable $jumlah
+#0 C:\xampp\htdocs\sistem-admin-test\app\Views\admin\index.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 C:\xampp\htdocs\sistem-admin-test\app\Controllers\User.php(23): view('admin/index')
+#5 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#6 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem-admin-test\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem-admin-test\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
